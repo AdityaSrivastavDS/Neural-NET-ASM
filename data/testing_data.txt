@@ -1,0 +1,5 @@
+spam,Subject: You're a Winner!,Body: Congratulations! You've won a free vacation.
+ham,Subject: Important Notice,Body: Please update your password.
+ham,Subject: Dinner Invitation,Body: Want to join me for dinner tonight?
+spam,Subject: Exclusive Offer,Body: Act now and get a free gift!
+...

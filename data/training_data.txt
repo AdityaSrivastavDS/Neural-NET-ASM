@@ -1,0 +1,5 @@
+spam,Subject: Urgent! You've Won a Free iPhone,Body: Click here to claim your prize!
+ham,Subject: Meeting Reminder,Body: Don't forget our meeting tomorrow at 2 PM.
+ham,Subject: Great News!,Body: I got a promotion!
+spam,Subject: Limited Time Offer,Body: Buy now and get 50% off!
+...

@@ -1,0 +1,21 @@
+# Makefile to build the project
+all: main.o neural_network.o kernel_functions.o activation_functions.o layers.o utils.o
+    ld -o main main.o neural_network.o kernel_functions.o activation_functions.o layers.o utils.o
+
+main.o: main.asm neural_network.h kernel_functions.h activation_functions.h layers.h utils.h
+    nasm -f elf64 main.asm
+
+neural_network.o: neural_network.asm neural_network.h layers.h utils.h
+    nasm -f elf64 neural_network.asm
+
+kernel_functions.o: kernel_functions.asm kernel_functions.h utils.h
+    nasm -f elf64 kernel_functions.asm
+
+activation_functions.o: activation_functions.asm activation_functions.h utils.h
+    nasm -f elf64 activation_functions.asm
+
+layers.o: layers.asm layers.h utils.h
+    nasm -f elf64 layers.asm
+
+utils.o: utils.asm utils.h
+    nasm -f elf64 utils.asm
