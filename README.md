@@ -30,6 +30,9 @@ This project aims to create a custom machine learning library implemented in Ass
 - Leverages Assembly language for performance-critical operations
 - Optimizes memory access patterns and instruction scheduling
 
+## View
+![Project Logo](static/view.png)
+
 ## Installation
 
 1. **Clone the repository**:
